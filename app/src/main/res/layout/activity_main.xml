@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvFixedTab"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:background="?selectableItemBackground"
+            android:clickable="true"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:text="Fixed Tab"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#dedede"/>
+
+        <TextView
+            android:id="@+id/tvFixedCenteredTab"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:background="?selectableItemBackground"
+            android:clickable="true"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:text="Fixed-Centered Tab"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#dedede"/>
+
+        <TextView
+            android:id="@+id/tvScrollableTab"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:background="?selectableItemBackground"
+            android:clickable="true"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:text="Scrollable Tab"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#dedede"/>
+
+        <TextView
+            android:id="@+id/tvIconTextTab"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:background="?selectableItemBackground"
+            android:clickable="true"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:text="Icon &amp; Text Tab"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#dedede"/>
+
+        <TextView
+            android:id="@+id/tvPagerTabStrip"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:background="?selectableItemBackground"
+            android:clickable="true"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:text="PagerTabStrip"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#dedede"/>
+
+    </LinearLayout>
+
+</ScrollView>
